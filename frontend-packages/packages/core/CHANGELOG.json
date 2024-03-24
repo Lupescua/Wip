@@ -1,0 +1,41 @@
+{
+  "name": "@salling-group/core",
+  "entries": [
+    {
+      "version": "0.2.0",
+      "tag": "@salling-group/core_v0.2.0",
+      "date": "Tue, 21 Feb 2023 11:26:10 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Update interfaces for PagedCollection"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.0",
+      "tag": "@salling-group/core_v0.1.0",
+      "date": "Wed, 04 Jan 2023 23:48:29 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Extend the types for the search function with the staticFilters property"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.2",
+      "tag": "@salling-group/core_v0.0.2",
+      "date": "Fri, 26 Aug 2022 08:03:13 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Set initial version manually in package.json"
+          }
+        ]
+      }
+    }
+  ]
+}

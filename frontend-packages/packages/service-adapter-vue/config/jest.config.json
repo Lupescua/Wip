@@ -1,0 +1,7 @@
+{
+  "preset": "./node_modules/@salling-group/web-rig/includes/jest-shared.config.js",
+  "moduleFileExtensions": ["ts", "tsx", "cjs", "js", "json"],
+  "transform": {
+    "^.+\\.vue$": "@vue/vue3-jest"
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "preset": "./node_modules/@salling-group/web-rig/includes/jest-shared.config.js"
+}

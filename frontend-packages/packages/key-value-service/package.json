@@ -1,0 +1,26 @@
+{
+  "name": "@salling-group/key-value-service",
+  "version": "1.0.2",
+  "license": "MIT",
+  "main": "lib-commonjs/index.js",
+  "module": "lib/index.js",
+  "types": "dist/key-value-service.d.ts",
+  "scripts": {
+    "build": "heft test --clean",
+    "build:watch": "heft build",
+    "clean": "heft clean --clear-cache",
+    "test": "heft test --clean"
+  },
+  "dependencies": {
+    "rxjs": "6.6.6",
+    "@salling-group/core-service": "workspace:*"
+  },
+  "devDependencies": {
+    "@rushstack/heft": "0.30.6",
+    "@salling-group/web-rig": "workspace:*",
+    "@types/heft-jest": "1.0.2",
+    "@types/node": "14.14.31",
+    "@rushstack/eslint-config": "2.3.4",
+    "rx-sandbox": "1.0.4"
+  }
+}

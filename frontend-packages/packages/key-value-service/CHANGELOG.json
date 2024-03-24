@@ -1,0 +1,75 @@
+{
+  "name": "@salling-group/key-value-service",
+  "entries": [
+    {
+      "version": "1.0.2",
+      "tag": "@salling-group/key-value-service_v1.0.2",
+      "date": "Thu, 20 Oct 2022 08:29:52 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Publish commonjs lib"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.0.1",
+      "tag": "@salling-group/key-value-service_v1.0.1",
+      "date": "Thu, 15 Sep 2022 08:13:58 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@salling-group/core-service\" to `0.3.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
+      "tag": "@salling-group/key-value-service_v1.0.0",
+      "date": "Thu, 01 Sep 2022 10:43:29 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "Add Key value service "
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.1",
+      "tag": "key-value-service_v0.1.1",
+      "date": "Wed, 08 Dec 2021 08:51:45 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"core-service\" to `0.2.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.0",
+      "tag": "key-value-service_v0.1.0",
+      "date": "Wed, 29 Sep 2021 11:28:42 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Implement service"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "Update rush-project.json"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"core-service\" to `0.1.0`"
+          }
+        ]
+      }
+    }
+  ]
+}

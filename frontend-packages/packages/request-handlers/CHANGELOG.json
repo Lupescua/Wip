@@ -1,0 +1,112 @@
+{
+  "name": "@salling-group/request-handlers",
+  "entries": [
+    {
+      "version": "1.0.1",
+      "tag": "@salling-group/request-handlers_v1.0.1",
+      "date": "Wed, 04 Jan 2023 23:48:29 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Upgrade qs dependency to fix vulnerability"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
+      "tag": "request-handlers_v1.0.0",
+      "date": "Wed, 23 Feb 2022 19:18:06 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "add support for reading response headers"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.2.0",
+      "tag": "request-handlers_v0.2.0",
+      "date": "Mon, 22 Nov 2021 12:59:12 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "add responseType to calls"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.1",
+      "tag": "request-handlers_v0.1.1",
+      "date": "Tue, 05 Oct 2021 09:33:35 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix an issue where `OneTimetoken.invalidate()` triggers `IOneTimeTokenConfig.request()`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.0",
+      "tag": "request-handlers_v0.1.0",
+      "date": "Wed, 29 Sep 2021 11:28:42 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Change LocalStorageToken to use defer in getter"
+          },
+          {
+            "comment": "Fix eslint warning"
+          },
+          {
+            "comment": "Handle undefined tokens and fix multi emitting tokens"
+          },
+          {
+            "comment": "Stringify arrays as comma seperated"
+          },
+          {
+            "comment": "Bump @types/qs"
+          },
+          {
+            "comment": "Add DataType to control encoding of request"
+          },
+          {
+            "comment": "Add Body in request"
+          },
+          {
+            "comment": "Update rush-project.json"
+          },
+          {
+            "comment": "Add PATCH to allowed request methods"
+          },
+          {
+            "comment": "Remove 403 http status check"
+          }
+        ],
+        "minor": [
+          {
+            "comment": "Cancel requests on auth fail"
+          },
+          {
+            "comment": "Make tokens and token request handler fully generic"
+          },
+          {
+            "comment": "Make request handlers more generic"
+          },
+          {
+            "comment": "ReadonlyToken and LocalStorageToken added"
+          },
+          {
+            "comment": "Expose redonly field on RefreshableToken"
+          },
+          {
+            "comment": "Add retry option to RefreshableToken"
+          }
+        ]
+      }
+    }
+  ]
+}

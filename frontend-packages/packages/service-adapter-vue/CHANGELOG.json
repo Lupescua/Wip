@@ -1,0 +1,133 @@
+{
+  "name": "@salling-group/service-adapter-vue",
+  "entries": [
+    {
+      "version": "2.1.1",
+      "tag": "@salling-group/service-adapter-vue_v2.1.1",
+      "date": "Wed, 27 Sep 2023 06:57:04 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update readme"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.1.0",
+      "tag": "@salling-group/service-adapter-vue_v2.1.0",
+      "date": "Thu, 31 Aug 2023 12:15:01 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "update vue adapter to support nuxt 3"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.0.5",
+      "tag": "@salling-group/service-adapter-vue_v2.0.5",
+      "date": "Mon, 08 May 2023 08:17:30 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Create a proxyReactive function to wrap services in Vue.observable or reactive for Vue2 or Vue3"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.0.4",
+      "tag": "@salling-group/service-adapter-vue_v2.0.4",
+      "date": "Fri, 10 Feb 2023 09:55:56 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Prevent service factory from running multiple times"
+          },
+          {
+            "comment": "Ensure Vue CompositionAPI is installed using vue-demi"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.0.3",
+      "tag": "@salling-group/service-adapter-vue_v2.0.3",
+      "date": "Wed, 23 Nov 2022 11:01:57 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update peerDependencies to resolve resolution issue with NPM v7+"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.0.2",
+      "tag": "@salling-group/service-adapter-vue_v2.0.2",
+      "date": "Mon, 24 Oct 2022 08:58:02 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Only freeze Vue service container after install is done"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.0.1",
+      "tag": "@salling-group/service-adapter-vue_v2.0.1",
+      "date": "Thu, 15 Sep 2022 08:13:58 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@salling-group/core-service\" to `0.3.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.0.0",
+      "tag": "@salling-group/service-adapter-vue_v2.0.0",
+      "date": "Wed, 20 Jul 2022 07:00:40 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "Add support for composition api, Vue 3 and Nuxt 3"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
+      "tag": "@salling-group/service-adapter-vue_v1.0.0",
+      "date": "Thu, 12 May 2022 10:57:08 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "Update vue-adapter with a nuxt \"adapter\" which uses inject and exposes context."
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.0",
+      "tag": "service-adapter-vue_v0.1.0",
+      "date": "Wed, 08 Dec 2021 08:51:45 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Initial implementation"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"core-service\" to `0.2.0`"
+          }
+        ]
+      }
+    }
+  ]
+}

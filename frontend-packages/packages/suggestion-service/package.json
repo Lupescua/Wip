@@ -1,0 +1,33 @@
+{
+  "name": "@salling-group/suggestion-service",
+  "version": "0.1.3",
+  "license": "MIT",
+  "main": "lib-commonjs/index.js",
+  "module": "lib/index.js",
+  "types": "dist/suggestion-service.d.ts",
+  "scripts": {
+    "build": "heft test --clean",
+    "build:watch": "heft build",
+    "test": "heft test --clean",
+    "test:watch": "heft test --clean --watch",
+    "clean": "heft clean --clear-cache"
+  },
+  "repository": {
+    "url": "https://github.com/Salling-Group/frontend-packages.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "@salling-group/core-service": "workspace:*",
+    "rxjs": "6.6.6"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-config": "2.3.4",
+    "@rushstack/heft": "0.30.6",
+    "@salling-group/web-rig": "workspace:*",
+    "@types/heft-jest": "1.0.2",
+    "@types/node": "14.14.31",
+    "rx-sandbox": "1.0.4"
+  }
+}

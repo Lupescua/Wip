@@ -1,0 +1,126 @@
+{
+  "name": "@salling-group/service-adapter-react",
+  "entries": [
+    {
+      "version": "0.1.6",
+      "tag": "@salling-group/service-adapter-react_v0.1.6",
+      "date": "Thu, 20 Oct 2022 08:29:52 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Publish commonjs lib"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.5",
+      "tag": "@salling-group/service-adapter-react_v0.1.5",
+      "date": "Thu, 15 Sep 2022 08:13:58 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@salling-group/core-service\" to `0.3.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.4",
+      "tag": "@salling-group/service-adapter-react_v0.1.4",
+      "date": "Tue, 12 Apr 2022 07:10:28 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Correct repository.url setting in package.json"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.3",
+      "tag": "service-adapter-react_v0.1.3",
+      "date": "Mon, 20 Dec 2021 08:28:02 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Improve useService initialization"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.2",
+      "tag": "service-adapter-react_v0.1.2",
+      "date": "Wed, 08 Dec 2021 08:51:45 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"core-service\" to `0.2.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.1",
+      "tag": "service-adapter-react_v0.1.1",
+      "date": "Mon, 11 Oct 2021 14:18:34 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update react"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.0",
+      "tag": "service-adapter-react_v0.1.0",
+      "date": "Wed, 29 Sep 2021 11:28:42 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Implement useLoading"
+          },
+          {
+            "comment": "Add dependency array to useObservable"
+          },
+          {
+            "comment": "Initial release"
+          },
+          {
+            "comment": "Implement context factory"
+          },
+          {
+            "comment": "Add state hook for lazy evaluation"
+          },
+          {
+            "comment": "Add context hooks"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "Add dep array to useEventHub"
+          },
+          {
+            "comment": "Expose useLoading"
+          },
+          {
+            "comment": "Update rush-project.json"
+          },
+          {
+            "comment": "Fix generic type inference"
+          },
+          {
+            "comment": "Add the property \"instances\" to the service context"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"core-service\" to `0.1.0`"
+          }
+        ]
+      }
+    }
+  ]
+}

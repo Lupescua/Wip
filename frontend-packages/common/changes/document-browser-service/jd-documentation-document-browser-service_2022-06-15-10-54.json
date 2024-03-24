@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "document-browser-service",
+      "comment": "Increase readability of `_normalizeState` by moving part of it into a new function named `_mergeWithExistingContext`.",
+      "type": "patch"
+    }
+  ],
+  "packageName": "document-browser-service",
+  "email": "jesper@vembyte.dk"
+}

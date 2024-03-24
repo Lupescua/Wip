@@ -1,0 +1,7 @@
+{
+  "extends": "./node_modules/@salling-group/web-rig/profiles/default/tsconfig-base.json",
+  "compilerOptions": {
+    "types": ["heft-jest", "node"],
+    "downlevelIteration": true
+  }
+}

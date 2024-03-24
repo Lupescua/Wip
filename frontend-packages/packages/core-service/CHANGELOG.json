@@ -1,0 +1,124 @@
+{
+  "name": "@salling-group/core-service",
+  "entries": [
+    {
+      "version": "0.3.0",
+      "tag": "@salling-group/core-service_v0.3.0",
+      "date": "Thu, 15 Sep 2022 08:13:58 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Add static getState to Service."
+          },
+          {
+            "comment": "Getting raw state from getState."
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.2.0",
+      "tag": "core-service_v0.2.0",
+      "date": "Wed, 08 Dec 2021 08:51:45 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Add selector test utility"
+          },
+          {
+            "comment": "Implement parameterized getters"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.0",
+      "tag": "core-service_v0.1.0",
+      "date": "Wed, 29 Sep 2021 11:28:42 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Add new ActionEventHub"
+          },
+          {
+            "comment": "Add resetState to abstract Service"
+          },
+          {
+            "comment": "Add `ActionHandler`"
+          },
+          {
+            "comment": "Add `dispatchEvent()` operator"
+          },
+          {
+            "comment": "Add `dispose()` to ActionExecution"
+          },
+          {
+            "comment": "Add `ActionStatus.SKIP`"
+          },
+          {
+            "comment": "Add limitByGroup concurrency operator"
+          },
+          {
+            "comment": "Initial release"
+          },
+          {
+            "comment": "Add `takeHeadAndTail()` operator"
+          },
+          {
+            "comment": "Add `dispatchActionEvent()` operator"
+          },
+          {
+            "comment": "Remove the emission timeout from `ActionExecution.shared`"
+          },
+          {
+            "comment": "Add `State` with support for optimistic updates"
+          },
+          {
+            "comment": "Add ServiceDescriptor and adjust Service"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "Fix setState return type inferrence "
+          },
+          {
+            "comment": "Fix state replay"
+          },
+          {
+            "comment": "Improve core service tests and remove service test adapter"
+          },
+          {
+            "comment": "Rename and improve Action decorator"
+          },
+          {
+            "comment": "Update rush-project.json"
+          },
+          {
+            "comment": "Remove ServiceFactory"
+          },
+          {
+            "comment": "Fix an issue where errors are caught and lost in `optimisticNext()`"
+          },
+          {
+            "comment": "Add parameter `config?: IOptimisticUpdateConfig` to `Service.setState()`"
+          },
+          {
+            "comment": "Reduce the amount of emits from `State`"
+          },
+          {
+            "comment": "Improve the handling and clean up of reducers"
+          },
+          {
+            "comment": "Fix event hub type"
+          },
+          {
+            "comment": "Adjust `headAndTail` key selection typings"
+          },
+          {
+            "comment": "Add helper function `Service.setState()`"
+          }
+        ]
+      }
+    }
+  ]
+}

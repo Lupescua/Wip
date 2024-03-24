@@ -1,0 +1,6 @@
+{
+  "$schema": "https://developer.microsoft.com/da-dk/json-schemas/heft/heft.schema.json",
+  "extends": "../node_modules/@salling-group/web-rig/profiles/default/config/heft.json",
+
+  "heftPlugins": []
+}

@@ -1,0 +1,52 @@
+{
+  "name": "@salling-group/service-adapter-vue",
+  "version": "2.1.1",
+  "license": "MIT",
+  "main": "lib-commonjs/index.js",
+  "module": "lib/index.js",
+  "types": "dist/service-adapter-vue.d.ts",
+  "scripts": {
+    "build": "heft test --clean",
+    "build:watch": "heft build",
+    "storybook": "heft --plugin heft-storybook start --clean",
+    "clean": "heft clean --clear-cache"
+  },
+  "repository": {
+    "url": "https://github.com/Salling-Group/frontend-packages.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "peerDependencies": {
+    "@nuxtjs/composition-api": "0.32.0",
+    "@vue/composition-api": "^1.0.0",
+    "vue": "^2.6.0 || ^3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    },
+    "@nuxtjs/composition-api": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@salling-group/core-service": "workspace:*",
+    "rxjs": "6.6.6",
+    "vue-demi": "0.13.5"
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.8",
+    "@rushstack/heft": "0.30.6",
+    "@salling-group/web-rig": "workspace:*",
+    "@types/heft-jest": "1.0.2",
+    "@types/node": "14.14.31",
+    "@vue/compiler-sfc": "3.2.31",
+    "@vue/test-utils": "2.0.0-rc.17",
+    "@vue/vue3-jest": "27.0.0-alpha.4",
+    "babel-jest": "27.3.1",
+    "jest": "27.3.1",
+    "rx-sandbox": "1.0.4",
+    "vue": "3.2.31"
+  }
+}

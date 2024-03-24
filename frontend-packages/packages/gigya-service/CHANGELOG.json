@@ -1,0 +1,268 @@
+{
+  "name": "@salling-group/gigya-service",
+  "entries": [
+    {
+      "version": "0.7.1",
+      "tag": "@salling-group/gigya-service_v0.7.1",
+      "date": "Tue, 21 Feb 2023 11:26:10 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@salling-group/core\" to `0.2.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.7.0",
+      "tag": "@salling-group/gigya-service_v0.7.0",
+      "date": "Tue, 14 Feb 2023 11:28:39 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Add clearActiveOrganization function to GigyaService"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.6.3",
+      "tag": "@salling-group/gigya-service_v0.6.3",
+      "date": "Wed, 04 Jan 2023 23:48:30 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@salling-group/core\" to `0.1.0`"
+          },
+          {
+            "comment": "Updating dependency \"@salling-group/gigya-api\" to `0.1.1`"
+          },
+          {
+            "comment": "Updating dependency \"@salling-group/request-handlers\" to `1.0.1`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.6.2",
+      "tag": "@salling-group/gigya-service_v0.6.2",
+      "date": "Wed, 23 Nov 2022 11:01:57 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Make getSchema action complete always"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.6.1",
+      "tag": "@salling-group/gigya-service_v0.6.1",
+      "date": "Thu, 15 Sep 2022 08:13:58 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@salling-group/core-service\" to `0.3.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.6.0",
+      "tag": "@salling-group/gigya-service_v0.6.0",
+      "date": "Fri, 26 Aug 2022 08:03:13 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@salling-group/core\" to `0.0.2`"
+          },
+          {
+            "comment": "Updating dependency \"@salling-group/gigya-api\" to `0.1.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.5.4",
+      "tag": "@salling-group/gigya-service_v0.5.4",
+      "date": "Mon, 09 May 2022 11:41:11 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@salling-group/gigya-api\" to `0.0.1`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.5.3",
+      "tag": "gigya-service_v0.5.3",
+      "date": "Wed, 23 Feb 2022 19:18:06 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"request-handlers\" to `1.0.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.5.2",
+      "tag": "gigya-service_v0.5.2",
+      "date": "Wed, 08 Dec 2021 08:51:45 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"core-service\" to `0.2.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.5.1",
+      "tag": "gigya-service_v0.5.1",
+      "date": "Mon, 22 Nov 2021 12:59:12 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"request-handlers\" to `0.2.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.5.0",
+      "tag": "gigya-service_v0.5.0",
+      "date": "Mon, 08 Nov 2021 09:04:30 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Add status check to setActiveOrganization"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.4.0",
+      "tag": "gigya-service_v0.4.0",
+      "date": "Tue, 05 Oct 2021 09:33:35 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix potential type error  "
+          }
+        ],
+        "minor": [
+          {
+            "comment": "Add getRegistrationInfo() method"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"request-handlers\" to `0.1.1`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.0",
+      "tag": "gigya-service_v0.3.0",
+      "date": "Fri, 01 Oct 2021 13:26:16 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "made logout() clear state and invalidate token even it the logout request fails"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.2.0",
+      "tag": "gigya-service_v0.2.0",
+      "date": "Wed, 29 Sep 2021 20:07:03 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Add CHANGE_PASSWORD status"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.0",
+      "tag": "gigya-service_v0.1.0",
+      "date": "Wed, 29 Sep 2021 11:28:42 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "isLoggedIn now acts on isValid"
+          },
+          {
+            "comment": "Fix test after changes in gigya api"
+          },
+          {
+            "comment": "Add missing datafields subscriptions and data"
+          },
+          {
+            "comment": "Fix missing profile data"
+          },
+          {
+            "comment": "Added organization token invalidation to logout and small fixes"
+          },
+          {
+            "comment": "Add updateRegistration, getSchema, preferenceSchema"
+          },
+          {
+            "comment": "Dont consider using registered if account is pending"
+          },
+          {
+            "comment": "Update rush-project.json"
+          }
+        ],
+        "minor": [
+          {
+            "comment": "add getter for accountCheck"
+          },
+          {
+            "comment": "update tests"
+          },
+          {
+            "comment": "add required consents to constructor"
+          },
+          {
+            "comment": "add hasSubscription"
+          },
+          {
+            "comment": "Add support for organizations "
+          },
+          {
+            "comment": "Add data.terms to updateRegistration"
+          },
+          {
+            "comment": "Implement base functionality (login, get account, logout)"
+          },
+          {
+            "comment": "Implemented \"profile\" and \"setAccountInfo\""
+          },
+          {
+            "comment": "added recentlyRegistered getter"
+          },
+          {
+            "comment": "Add resetPassword"
+          },
+          {
+            "comment": "Add registration methods"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"core-service\" to `0.1.0`"
+          },
+          {
+            "comment": "Updating dependency \"request-handlers\" to `0.1.0`"
+          }
+        ]
+      }
+    }
+  ]
+}

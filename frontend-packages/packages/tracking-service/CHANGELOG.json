@@ -1,0 +1,100 @@
+{
+  "name": "@salling-group/tracking-service",
+  "entries": [
+    {
+      "version": "0.2.4",
+      "tag": "@salling-group/tracking-service_v0.2.4",
+      "date": "Thu, 01 Dec 2022 08:38:04 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix minor generic constraint"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.2.3",
+      "tag": "@salling-group/tracking-service_v0.2.3",
+      "date": "Thu, 15 Sep 2022 08:13:58 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@salling-group/core-service\" to `0.3.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.2.2",
+      "tag": "@salling-group/tracking-service_v0.2.2",
+      "date": "Thu, 05 May 2022 12:39:45 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix QueueTrackingScheduler, ensure that observable returned by tracker is subscribed to"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.2.1",
+      "tag": "@salling-group/tracking-service_v0.2.1",
+      "date": "Wed, 06 Apr 2022 11:05:57 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Correct repository.url setting in package.json"
+          },
+          {
+            "comment": "Fix for publishing package"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.2.0",
+      "tag": "@salling-group/tracking-service_v0.2.0",
+      "date": "Fri, 01 Apr 2022 12:23:26 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Add tracking scheduelers"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.1",
+      "tag": "tracking-service_v0.1.1",
+      "date": "Wed, 08 Dec 2021 08:51:45 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"core-service\" to `0.2.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.0",
+      "tag": "tracking-service_v0.1.0",
+      "date": "Wed, 29 Sep 2021 11:28:42 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Allow partial ITracker"
+          },
+          {
+            "comment": "Add tracking service"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"core-service\" to `0.1.0`"
+          }
+        ]
+      }
+    }
+  ]
+}

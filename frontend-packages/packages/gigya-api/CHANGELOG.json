@@ -1,0 +1,47 @@
+{
+  "name": "@salling-group/gigya-api",
+  "entries": [
+    {
+      "version": "0.1.1",
+      "tag": "@salling-group/gigya-api_v0.1.1",
+      "date": "Wed, 04 Jan 2023 23:48:30 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@salling-group/request-handlers\" to `1.0.1`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.0",
+      "tag": "@salling-group/gigya-api_v0.1.0",
+      "date": "Fri, 26 Aug 2022 08:03:13 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Add getJWT to GigyaAPI"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.1",
+      "tag": "@salling-group/gigya-api_v0.0.1",
+      "date": "Mon, 09 May 2022 11:41:11 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix using query parameters on POST requests"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.0",
+      "tag": "@salling-group/gigya-api_v0.0.0",
+      "date": "Mon, 21 Mar 2022 12:03:01 GMT",
+      "comments": {}
+    }
+  ]
+}

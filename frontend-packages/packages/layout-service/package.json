@@ -1,0 +1,26 @@
+{
+  "name": "@salling-group/layout-service",
+  "version": "2.0.0",
+  "license": "MIT",
+  "main": "lib-commonjs/index.js",
+  "module": "lib/index.js",
+  "types": "dist/layout-service.d.ts",
+  "scripts": {
+    "build": "heft test --clean",
+    "build:watch": "heft build",
+    "test:watch": "heft test --clean --watch",
+    "clean": "heft clean --clear-cache"
+  },
+  "dependencies": {
+    "rxjs": "6.6.6"
+  },
+  "devDependencies": {
+    "@rushstack/heft": "0.30.6",
+    "@rushstack/eslint-config": "2.3.4",
+    "@salling-group/web-rig": "workspace:*",
+    "@salling-group/core-service": "workspace:*",
+    "@types/heft-jest": "1.0.2",
+    "@types/node": "14.14.31",
+    "rx-sandbox": "1.0.4"
+  }
+}

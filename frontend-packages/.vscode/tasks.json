@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Rushx dev watch",
+      "dependsOn": ["build:watch", "watch"],
+      "dependsOrder": "parallel"
+    },
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "rush build",
+    },
+    {
+      "label": "build:watch",
+      "type": "shell",
+      "command": "rush",
+      "args": ["build:watch", "-T", "."],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "presentation": {
+        "group": "rushx_dev",
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "watch",
+      "type": "shell",
+      "command": "rushx",
+      "args": ["build", "--watch"],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "presentation": {
+        "group": "rushx_dev",
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ]
+}

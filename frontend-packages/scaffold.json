@@ -1,0 +1,75 @@
+{
+  "presets": {
+    "service": {
+      "categoryFolder": "packages",
+      "files": [
+        "packages/core-service/*.*",
+        "packages/core-service/.*",
+        "packages/core-service/config/*.*"
+      ],
+      "packageJson": {
+        "dependencies": ["rxjs", "core-service@workspace"],
+        "devDependencies": ["web-rig@workspace"]
+      }
+    },
+    "api": {
+      "categoryFolder": "packages",
+      "files": [
+        "packages/request-handlers/*.*",
+        "packages/request-handlers/.*",
+        "packages/request-handlers/config/*.*"
+      ],
+      "packageJson": {
+        "dependencies": ["rxjs", "request-handlers@workspace"],
+        "devDependencies": ["web-rig@workspace"]
+      }
+    },
+    // "react-package": {
+    //   "categoryFolder": "packages",
+    //   "files": [
+    //     "packages/react-ui-library/*.*",
+    //     "packages/react-ui-library/.*",
+    //     "packages/react-ui-library/config/*.*"
+    //   ],
+    //   "packageJson": {
+    //     "dependencies": ["react", "react-dom"],
+    //     "devDependencies": [
+    //       "web-rig@workspace",
+    //       "@types/react",
+    //       "@types/react-dom",
+    //       "@types/testing-library__jest-dom",
+    //       "@testing-library/react-hooks",
+    //       "@testing-library/jest-dom",
+    //       "@testing-library/react",
+    //       "heft-storybook@workspace"
+    //     ]
+    //   }
+    // },
+    "node-tool": {
+      "categoryFolder": "tools",
+      "files": ["tools/scaffold/*.*", "tools/scaffold/.*", "tools/scaffold/config/*.*"],
+      "packageJson": {
+        "main": "lib/index.js",
+        "module": "lib/index.js",
+        "devDependencies": ["@rushstack/heft-node-rig"]
+      }
+    }
+  },
+  "packageJson": {
+    "main": "lib-commonjs/index.js",
+    "module": "lib/index.js",
+    "types": "dist/<unscopedPackageName>.d.ts",
+    "scripts": {
+      "build": "heft test --clean",
+      "build:watch": "heft build",
+      "clean": "heft clean --clear-cache --verbose"
+    },
+    "dependencies": [],
+    "devDependencies": [
+      "@rushstack/heft",
+      "@rushstack/eslint-config",
+      "@types/node",
+      "@types/heft-jest"
+    ]
+  }
+}

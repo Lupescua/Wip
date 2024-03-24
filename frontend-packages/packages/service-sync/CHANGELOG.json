@@ -1,0 +1,46 @@
+{
+  "name": "@salling-group/service-sync",
+  "entries": [
+    {
+      "version": "2.0.2",
+      "tag": "@salling-group/service-sync_v2.0.2",
+      "date": "Wed, 04 Jan 2023 23:48:30 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@salling-group/request-handlers\" to `1.0.1`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.0.1",
+      "tag": "@salling-group/service-sync_v2.0.1",
+      "date": "Thu, 15 Sep 2022 11:32:59 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Correct path to typing"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.0.0",
+      "tag": "@salling-group/service-sync_v2.0.0",
+      "date": "Thu, 15 Sep 2022 08:13:58 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "Add ServiceSync"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@salling-group/core-service\" to `0.3.0`"
+          }
+        ]
+      }
+    }
+  ]
+}
